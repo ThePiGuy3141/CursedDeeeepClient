@@ -42988,7 +42988,7 @@ function togglePlay() {
                                 },
                                 [
                                   n("img", {
-                                    attrs: { src: t.getSpritePath(e.fishLevel) },
+                                    attrs: { src: t.getSpritePath(penguin) },
                                   }),
                                 ]
                               )
@@ -44562,14 +44562,14 @@ function togglePlay() {
                               n("span", {}, [t._v("You are a ")]),
                               t._v(" "),
                               n("img", {
-                                attrs: { src: t.getSpritePath(e.fishLevel) },
+                                attrs: { src: t.getSpritePath(penguin) },
                               }),
                               t._v(" "),
                               n("span", { staticClass: "fish-name" }, [
                                 t._v(
                                   t._s(
                                     t.getTranslation(
-                                      t.getFishLevelData(e.fishLevel).name +
+                                      t.getFishLevelData(penguin).name +
                                         "-name"
                                     )
                                   )
@@ -44580,14 +44580,14 @@ function togglePlay() {
                               n("span", {}, [t._v("A ")]),
                               t._v(" "),
                               n("img", {
-                                attrs: { src: t.getSpritePath(e.fishLevel) },
+                                attrs: { src: t.getSpritePath(penguin) },
                               }),
                               t._v(" "),
                               n("span", { staticClass: "fish-name" }, [
                                 t._v(
                                   t._s(
                                     t.getTranslation(
-                                      t.getFishLevelData(e.fishLevel).name +
+                                      t.getFishLevelData(penguin).name +
                                         "-name"
                                     )
                                   )
@@ -45227,7 +45227,7 @@ function togglePlay() {
                             },
                             [
                               n("img", {
-                                attrs: { src: t.getSpritePath(e.fishLevel) },
+                                attrs: { src: t.getSpritePath(penguin) },
                               }),
                               t._v(" "),
                               n("div", { staticClass: "name" }, [
@@ -45266,7 +45266,7 @@ function togglePlay() {
                             },
                             [
                               n("img", {
-                                attrs: { src: t.getSpritePath(e.fishLevel) },
+                                attrs: { src: t.getSpritePath(penguin) },
                               }),
                               t._v(" "),
                               n("div", { staticClass: "name" }, [
@@ -45773,7 +45773,7 @@ function togglePlay() {
                                         n("td", { staticClass: "level" }, [
                                           n("img", {
                                             attrs: {
-                                              src: t.getSpritePath(e.fishLevel),
+                                              src: t.getSpritePath(penguin),
                                             },
                                           }),
                                         ]),
@@ -46074,7 +46074,7 @@ function togglePlay() {
                                         n("td", { staticClass: "level" }, [
                                           n("img", {
                                             attrs: {
-                                              src: t.getSpritePath(e.fishLevel),
+                                              src: t.getSpritePath(penguin),
                                             },
                                           }),
                                         ]),
